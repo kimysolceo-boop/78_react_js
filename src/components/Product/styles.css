@@ -1,0 +1,21 @@
+.product {
+    width: 180px;
+    padding: 20px;
+    background-color: rgb(248, 246, 252);
+    border: 2px solid rgb(46, 13, 81);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.product-name {
+    font-size: 24px;
+    color: rgb(46, 13, 81);
+    margin: 0 0 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(85, 55, 120);
+    margin: 0;
+}
