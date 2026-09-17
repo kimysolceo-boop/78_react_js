@@ -1,0 +1,66 @@
+.feedback-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    padding: 30px;
+    border: 2px solid rgb(46, 13, 81);
+    border-radius: 16px;
+    background-color: white;
+}
+
+.like-wrapper,
+.dislike-wrapper {
+    display: grid;
+    grid-template-columns: 40px 350px 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.like-wrapper .feedback-result {
+    grid-column: 1;
+}
+
+.like-wrapper .my-button {
+    grid-column: 2;
+}
+
+.dislike-wrapper .my-button {
+    grid-column: 2;
+}
+
+.dislike-wrapper .feedback-result {
+    grid-column: 3;
+}
+
+.feedback-result {
+    width: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 13, 81);
+}
+
+.reset-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.like-wrapper .my-button {
+    background-color: #2e7d32;
+}
+
+.dislike-wrapper .my-button {
+    background-color: #c62828;
+}
+
+.reset-wrapper .my-button {
+    background-color: rgb(46, 13, 81);
+}
+
+.like-wrapper .my-button:hover,
+.dislike-wrapper .my-button:hover,
+.reset-wrapper .my-button:hover {
+    opacity: 0.85;
+}

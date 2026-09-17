@@ -1,6 +1,6 @@
 import "./styles.css"
 
-function Counter({ count = 0, onMinusClick, onPlusClick }) {
+function Counter({ count, onMinusClick, onPlusClick }) {
     return (
         <div className="counter">
             <button className="counter-button" onClick={onMinusClick}>
